@@ -3,4 +3,4 @@ PRODUCT_PACKAGES += \
 	Superuser \
 	su
 
-TARGET_BUILD_ORIGIN_SU := false
+TARGET_BUILD_ORIGINAL_SU := false
