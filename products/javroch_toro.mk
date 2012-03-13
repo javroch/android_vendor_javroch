@@ -16,7 +16,7 @@ PRODUCT_MANUFACTURER := Samsung
 PRODUCT_RELEASE_NAME := GalaxyNexus
 
 # Overlay
-# PRODUCT_PACKAGE_OVERLAYS += \
-#	vendor/javroch/overlay/toro
+PRODUCT_PACKAGE_OVERLAYS += \
+	vendor/javroch/overlay/toro
 
 
