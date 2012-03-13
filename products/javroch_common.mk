@@ -6,6 +6,9 @@ PRODUCT_DEVICE := generic
 # Enable root
 -include vendor/javroch/products/javroch_root.inc.mk
 
+# Enable drm (only does anything if you've flashed gapps)
+-include vendor/javroch/products/javroch_drm.inc.mk
+
 # Enable wallpapers
 -include vendor/javroch/products/javroch_wallpapers.inc.mk
 
