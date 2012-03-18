@@ -23,6 +23,3 @@ PRODUCT_COPY_FILES += \
 # are we making a fastboot build or ota? i wish i could figure out hwo to tell if the target they chose was 'otapackage' instead
 TARGET_OTA_NO_RECOVERY := true
 # TARGET_NO_RECOVERY # use this instead for fastboot, comment out the other line
-
-PRODUCT_PROPERTY_OVERRIDES += \
-    ro.root.settings=true
