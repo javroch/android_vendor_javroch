@@ -8,5 +8,5 @@ TARGET_BUILD_ORIGINAL_SU := false
 
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.root.settings=1 \
-    ro.root.settings.default=0
+    ro.root.access.default=0
 endif
