@@ -12,6 +12,9 @@ PRODUCT_DEVICE := generic
 # Enable wallpapers
 -include vendor/javroch/products/javroch_wallpapers.inc.mk
 
+# Enable extra global actions (reboot/screenshot)
+-include vendor/javroch/products/javroch_global_actions.inc.mk
+
 # Enable common overlays
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/javroch/overlay/common
