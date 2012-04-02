@@ -7,5 +7,5 @@ PRODUCT_PACKAGES += \
 TARGET_BUILD_ORIGINAL_SU := false
 
 PRODUCT_PROPERTY_OVERRIDES += \
-    ro.root.settings=1
+    ro.clean.root=1
 endif
