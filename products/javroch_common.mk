@@ -4,8 +4,7 @@ PRODUCT_BRAND := javroch
 PRODUCT_DEVICE := generic
 
 # Enable Clean options
-PRODUCT_PACKAGES += \
-	CleanOptions
+-include vendor/javroch/products/javroch_clean_options.inc.mk
 
 # Enable root
 -include vendor/javroch/products/javroch_root.inc.mk
