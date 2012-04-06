@@ -1,5 +1,5 @@
-# Enable Clean options
+# Enable Clean extras
 PRODUCT_PACKAGES += \
-	CleanOptions
+	CleanExtras
 PRODUCT_PROPERTY_OVERRIDES += \
     ro.clean.settings=1

@@ -3,8 +3,8 @@ PRODUCT_NAME := javroch
 PRODUCT_BRAND := javroch
 PRODUCT_DEVICE := generic
 
-# Enable Clean options
--include vendor/javroch/products/javroch_clean_options.inc.mk
+# Enable Clean extras
+-include vendor/javroch/products/javroch_clean_extras.inc.mk
 
 # Enable root
 -include vendor/javroch/products/javroch_root.inc.mk
