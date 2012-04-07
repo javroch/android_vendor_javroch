@@ -18,6 +18,9 @@ PRODUCT_DEVICE := generic
 # Enable extra global actions (reboot/screenshot)
 -include vendor/javroch/products/javroch_global_actions.inc.mk
 
+# Enable battery percentage setting
+-include vendor/javroch/products/javroch_battery_percent.inc.mk
+
 # Enable common overlays
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/javroch/overlay/common
