@@ -21,6 +21,9 @@ PRODUCT_DEVICE := generic
 # Enable battery percentage setting
 -include vendor/javroch/products/javroch_battery_percent.inc.mk
 
+# Enable launcher screen count option
+-include vendor/javroch/products/javroch_launcher.inc.mk
+
 # Enable common overlays
 PRODUCT_PACKAGE_OVERLAYS += \
 	vendor/javroch/overlay/common
