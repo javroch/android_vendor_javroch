@@ -15,8 +15,10 @@ PRODUCT_MODEL := Galaxy Nexus
 PRODUCT_MANUFACTURER := Samsung
 PRODUCT_RELEASE_NAME := GalaxyNexus
 
-# Overlay
+## Overlay
+# PRODUCT_PACKAGE_OVERLAYS += \
+# 	vendor/javroch/overlay/toro
+
+# Verizon Overlay
 PRODUCT_PACKAGE_OVERLAYS += \
-	vendor/javroch/overlay/toro
-
-
+    vendor/javroch/overlay/verizon
